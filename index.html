@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>𝒇𝒐𝒍𝒌𝒍𝒐𝒓𝒆</title>
+    <style>
+        body {
+            background-color: #f5f2e7; 
+            text-align: center;
+            font-family: "Times New Roman", serif;
+            margin-top: 100px;
+        }
+        .hidden-content {
+            display: none;
+        }
+        #loveLetter {
+            margin-top: 20px;
+            font-size: 18px;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            border: 1px solid #a39482; 
+            padding: 15px;
+            border-radius: 5px;
+            background-color: #e2d9cc; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #5a513f; 
+        }
+        button {
+            background-color: #5a513f; 
+            color: #ffffff; 
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #7c735f; 
+        }
+        audio {
+            width: 80%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🖤𝒇𝒐𝒍𝒌𝒍𝒐𝒓𝒆🥀</h1>
+    <p>𝑪𝒍𝒊𝒄𝒌 𝒕𝒉𝒆 𝒃𝒖𝒕𝒕𝒐𝒏!</p>
+    <button id="revealButton" onclick="revealSurprise()">𝐇𝐄𝐑𝐄</button>
+
+    <div id="loveLetter" class="hidden-content">
+
+        <p>Amidst the twilight's soft embrace,<br>
+            A mirrorball reflects my grace,<br>
+            In Lover's realm of dreams we twirl,<br>
+            I'm lost within this gentle whirl.</p>
+        
+        <p>With every glimmer, I behold,<br>
+            A kaleidoscope of stories untold,<br>
+            In hues of love and tender nights,<br>
+            My heart takes flight in shimmering lights.</p>
+        
+        <p>Embraced by whispers in the dark,<br>
+            Two souls entwined, a timeless spark,<br>
+            The dance of love, an endless trance,<br>
+            A celestial waltz, a sweet romance.</p>
+        
+        <p>Each glint, a glimpse of passion's fire,<br>
+            A love so fierce, it will not tire,<br>
+            In mirror's gaze, truth's revelation,<br>
+            Love's purest form, my liberation.</p>
+        
+        <p>Through highs and lows, the mirror shows,<br>
+            A love that blooms, a love that grows,<br>
+            In every twist and turn we take,<br>
+            Eternal love, we'll never break.</p>
+        
+        <p>O mirrorball, enchant my view,<br>
+            Reflect the love that's tried and true,<br>
+            In Lover's dance, we'll never fall,<br>
+            Forever bound, entwined in all.</p>
+        <audio controls>
+            <source autoplay src="mirrorball.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <script>
+        function revealSurprise() {
+            var revealButton = document.getElementById('revealButton');
+            var loveLetter = document.getElementById('loveLetter');
+
+            revealButton.style.display = 'none';
+            loveLetter.classList.remove('hidden-content');
+        }
+    </script>
+</body>
+</html>
